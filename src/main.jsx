@@ -17,7 +17,7 @@ const router = createBrowserRouter([
         element: <Jilid1/>,
       },
       {
-        path: 'page2',
+        path: 'jilid2',
         element: <div>page2</div>,
       },
     ],
