@@ -9,6 +9,7 @@ import CardDark from "./components/fragments/TemplateDarkMode";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
+  
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -71,6 +72,14 @@ function App() {
               </ul>
             </div>
             <div className="w-2/3 mx-auto pt-20">
+              {/* {window.location.pathname === "/" && (
+                <div className="h-screen">
+                  <h1 className="text-3xl font-bold text-center dark:text-white">
+                    ahlan wa sahlan
+                  </h1>
+                </div>
+              )}
+              {window.location.pathname === "/jilid1" && <Outlet />} */}
               <Outlet />
             </div>
           </div>

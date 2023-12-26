@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Jilid1 from './pages/jilid1.jsx'
+import Jilid2 from './pages/jilid2.jsx'
 
 
 const router = createBrowserRouter([
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'jilid2',
-        element: <div>page2</div>,
+        element: <Jilid2/>,
       },
     ],
   },
