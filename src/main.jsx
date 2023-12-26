@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Jilid1 from './pages/jilid1.jsx'
 import Jilid2 from './pages/jilid2.jsx'
+import Home from './pages/homePage.jsx'
 
 
 const router = createBrowserRouter([
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <div>error</div>,
     children: [
+      {
+        path: '/',
+        element: <Home/>,
+      },
       {
         path: 'jilid1',
         element: <Jilid1/>,
