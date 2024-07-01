@@ -69,6 +69,14 @@ function App() {
                     Jilid 2
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    to="jilid3"
+                    className="dark:text-white font-bold text-xl text-green-500"
+                  >
+                    Jilid 3
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="w-2/3 mx-auto pt-20">
